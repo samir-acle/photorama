@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		05472BFF1F70A9D600D6BEB3 /* Photorama.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05472BFD1F70A9D600D6BEB3 /* Photorama.xcdatamodeld */; };
+		05472C021F70B0D400D6BEB3 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05472C001F70B0D400D6BEB3 /* Photo+CoreDataClass.swift */; };
+		05472C031F70B0D400D6BEB3 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05472C011F70B0D400D6BEB3 /* Photo+CoreDataProperties.swift */; };
 		059A79741F6D637700EB570F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A79731F6D637700EB570F /* AppDelegate.swift */; };
 		059A79791F6D637700EB570F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059A79771F6D637700EB570F /* Main.storyboard */; };
 		059A797B1F6D637700EB570F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059A797A1F6D637700EB570F /* Assets.xcassets */; };
@@ -15,7 +17,6 @@
 		059A79861F6D63CA00EB570F /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A79851F6D63CA00EB570F /* PhotosViewController.swift */; };
 		059A79881F6D70D800EB570F /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A79871F6D70D800EB570F /* FlickrAPI.swift */; };
 		059A798A1F6D854300EB570F /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A79891F6D854300EB570F /* PhotoStore.swift */; };
-		059A798C1F6E16CF00EB570F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A798B1F6E16CF00EB570F /* Photo.swift */; };
 		059A798E1F6F232F00EB570F /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A798D1F6F232F00EB570F /* PhotoDataSource.swift */; };
 		059A79901F6F2EAB00EB570F /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A798F1F6F2EAB00EB570F /* PhotoCollectionViewCell.swift */; };
 		059A79921F6F3B5000EB570F /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A79911F6F3B5000EB570F /* ImageStore.swift */; };
@@ -24,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		05472BFE1F70A9D600D6BEB3 /* Photorama.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photorama.xcdatamodel; sourceTree = "<group>"; };
+		05472C001F70B0D400D6BEB3 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		05472C011F70B0D400D6BEB3 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		059A79701F6D637700EB570F /* Photorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059A79731F6D637700EB570F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059A79781F6D637700EB570F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,7 +36,6 @@
 		059A79851F6D63CA00EB570F /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		059A79871F6D70D800EB570F /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
 		059A79891F6D854300EB570F /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
-		059A798B1F6E16CF00EB570F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		059A798D1F6F232F00EB570F /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		059A798F1F6F2EAB00EB570F /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		059A79911F6F3B5000EB570F /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		059A79671F6D637700EB570F = {
 			isa = PBXGroup;
 			children = (
+				05472C001F70B0D400D6BEB3 /* Photo+CoreDataClass.swift */,
+				05472C011F70B0D400D6BEB3 /* Photo+CoreDataProperties.swift */,
 				059A79721F6D637700EB570F /* Photorama */,
 				059A79711F6D637700EB570F /* Products */,
 			);
@@ -78,7 +82,6 @@
 				059A79851F6D63CA00EB570F /* PhotosViewController.swift */,
 				059A79871F6D70D800EB570F /* FlickrAPI.swift */,
 				059A79891F6D854300EB570F /* PhotoStore.swift */,
-				059A798B1F6E16CF00EB570F /* Photo.swift */,
 				059A798D1F6F232F00EB570F /* PhotoDataSource.swift */,
 				059A798F1F6F2EAB00EB570F /* PhotoCollectionViewCell.swift */,
 				059A79911F6F3B5000EB570F /* ImageStore.swift */,
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05472C021F70B0D400D6BEB3 /* Photo+CoreDataClass.swift in Sources */,
 				059A79881F6D70D800EB570F /* FlickrAPI.swift in Sources */,
 				059A79861F6D63CA00EB570F /* PhotosViewController.swift in Sources */,
 				059A798A1F6D854300EB570F /* PhotoStore.swift in Sources */,
@@ -167,8 +171,8 @@
 				059A798E1F6F232F00EB570F /* PhotoDataSource.swift in Sources */,
 				05472BFF1F70A9D600D6BEB3 /* Photorama.xcdatamodeld in Sources */,
 				059A79901F6F2EAB00EB570F /* PhotoCollectionViewCell.swift in Sources */,
+				05472C031F70B0D400D6BEB3 /* Photo+CoreDataProperties.swift in Sources */,
 				059A79741F6D637700EB570F /* AppDelegate.swift in Sources */,
-				059A798C1F6E16CF00EB570F /* Photo.swift in Sources */,
 				059A79941F6F59D200EB570F /* PhotoInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
